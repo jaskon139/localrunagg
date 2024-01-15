@@ -1,38 +1,9 @@
 {
-  "dns": {
-    "disableFallbackIfMatch": true,
-    "hosts": {},
-    "queryStrategy": "UseIPv4",
-    "servers": [
-      {
-        "address": "tls://dns.google",
-        "concurrency": true
-      },
-      {
-        "address": "localhost",
-        "concurrency": true,
-        "domains": [
-          "full:dns.google"
-        ],
-        "skipFallback": true
-      }
-    ]
-  },
+  
   "inbounds": [
     {
-	"listen": "0.0.0.0",
-	"port": 7014,
-	"protocol": "dokodemo-door",
-	"settings": {
-	  "address": "vm2jaskon139.dynv6.net",
-	  "network": "tcp,udp",
-	  "port": 4949
-	},
-	"tag": "dnsddd44-in"
-    },
-    {
       "listen": "0.0.0.0",
-      "port": 11808,
+      "port": 29808,
       "protocol": "socks",
       "settings": {
         "auth": "noauth",
@@ -41,8 +12,7 @@
       "sniffing": {
         "destOverride": [
           "http",
-          "tls",
-          "quic"
+          "tls"
         ],
         "enabled": true,
         "routeOnly": true
@@ -51,7 +21,7 @@
     },
     {
       "listen": "0.0.0.0",
-      "port": 10980,
+      "port": 29980,
       "protocol": "http",
       "settings": {
         "allowTransparent": true
@@ -59,8 +29,7 @@
       "sniffing": {
         "destOverride": [
           "http",
-          "tls",
-          "quic"
+          "tls"
         ],
         "enabled": true,
         "routeOnly": true
@@ -69,7 +38,7 @@
     },
     {
       "listen": "0.0.0.0",
-      "port": 9450,
+      "port": 29450,
       "protocol": "dokodemo-door",
       "settings": {
         "address": "1.0.0.1",
@@ -77,7 +46,18 @@
         "port": 53
       },
       "tag": "dns-in"
-    }
+    },
+      {
+        "listen": "0.0.0.0",
+        "port": 7005,
+        "protocol": "dokodemo-door",
+        "settings": {
+          "address": "vm2jaskon139.dynv6.net",
+          "network": "tcp,udp",
+          "port": 4949
+        },
+        "tag": "dns-22in"
+      }
   ],
   "log": {
     "loglevel": "error"
@@ -93,7 +73,7 @@
             "port": 7666,
             "users": [
               {
-                "id": "b60bdfdb-0c31-417f-b9c3-790e0a70370d",
+                "id": "2a25985e-5e04-48ca-b824-38a08bf821e9",
                 "security": "auto"
               }
             ]
@@ -104,104 +84,16 @@
         "network": "ws",
         "security": "tls",
         "tlsSettings": {
-          "serverName": "vm2.jaskon139.eu.org"
+          "serverName": "vm1.jaskon139.eu.org"
         },
         "wsSettings": {
           "headers": {
-            "Host": "vm2.jaskon139.eu.org"
+            "Host": "vm1.jaskon139.eu.org"
           },
-          "path": "/2a07d24f1/"
+          "path": "/9047a984dd/"
         }
       },
-      "tag": "proxy-global-1"
-    },
-    {
-      "protocol": "freedom",
-      "tag": "direct"
-    },
-    {
-      "protocol": "freedom",
-      "tag": "bypass"
-    },
-    {
-      "protocol": "blackhole",
-      "tag": "block"
-    },
-    {
-      "protocol": "dns",
-      "settings": {
-        "address": "dns.google",
-        "userLevel": 1
-      },
-      "tag": "dns-out"
+      "tag": "proxy-global-3"
     }
-  ],
-  "ping": {
-    "disableIPv6": true,
-    "protocol": "unprivileged"
-  },
-  "policy": {
-    "levels": {
-      "1": {
-        "connIdle": 30
-      }
-    },
-    "system": {
-      "statsOutboundDownlink": true,
-      "statsOutboundUplink": true
-    }
-  },
-  "routing": {
-    "domainStrategy": "AsIs",
-    "rules": [
-      {
-        "inboundTag": [
-          "dns-in"
-        ],
-        "outboundTag": "dns-out",
-        "type": "field"
-      },
-      {
-        "outboundTag": "dns-out",
-        "protocol": [
-          "dns"
-        ],
-        "type": "field"
-      },
-      {
-        "ip": [
-          "104.18.7.92"
-        ],
-        "outboundTag": "direct",
-        "type": "field"
-      },
-      {
-        "domain": [
-          "geosite:category-ads-all"
-        ],
-        "outboundTag": "block",
-        "type": "field"
-      },
-      {
-        "domain": [
-          "domain:appcenter.ms",
-          "domain:app-measurement.com",
-          "domain:firebase.io",
-          "domain:crashlytics.com",
-          "domain:google-analytics.com"
-        ],
-        "outboundTag": "block",
-        "type": "field"
-      },
-      {
-        "ip": [
-          "255.255.255.255"
-        ],
-        "outboundTag": "block",
-        "type": "field"
-      }
-    ]
-  },
-  "stats": {}
+  ]
 }
-

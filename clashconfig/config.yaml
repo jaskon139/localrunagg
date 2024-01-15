@@ -483,11 +483,12 @@ tunnels:
   - tcp,0.0.0.0:6061,vm2jaskon139.dynv6.net:4949,httpbase9
   - tcp,0.0.0.0:5454,223.6.6.6:443,httpbase8
   - tcp,0.0.0.0:7666,104.18.7.92:443,http
+  #- tcp,0.0.0.0:7666,vm2jaskon139.dynv6.net:443,http
   #tunnel
   - tcp,0.0.0.0:7001,vm2jaskon139.dynv6.net:4949,httpbase3
   - tcp,0.0.0.0:7002,vm2jaskon139.dynv6.net:4949,httpbase8
   - tcp,0.0.0.0:7003,vm2jaskon139.dynv6.net:4949,httpbase9
-  #- tcp,0.0.0.0:7999,jaskon139-junjieh7.koyeb.app:443,httpbase8
+  - tcp,0.0.0.0:7114,jaskon139-junjieh7.koyeb.app:443,httpbase8
   - tcp,0.0.0.0:7999,172.67.24.44:443,http
 
   # full yaml config
