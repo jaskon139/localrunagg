@@ -1,0 +1,23 @@
+Sun Dec 31 11:19:53 2023 OpenVPN 2.4.9 x86_64-w64-mingw32 [SSL (OpenSSL)] [LZO] [LZ4] [PKCS11] [AEAD] built on Apr 16 2020
+Sun Dec 31 11:19:53 2023 Windows version 6.2 (Windows 8 or greater) 64bit
+Sun Dec 31 11:19:53 2023 library versions: OpenSSL 1.1.1f  31 Mar 2020, LZO 2.10
+Enter Management Password:
+Sun Dec 31 11:19:53 2023 MANAGEMENT: TCP Socket listening on [AF_INET]127.0.0.1:25340
+Sun Dec 31 11:19:53 2023 Need hold release from management interface, waiting...
+Sun Dec 31 11:19:53 2023 MANAGEMENT: Client connected from [AF_INET]127.0.0.1:25340
+Sun Dec 31 11:19:54 2023 MANAGEMENT: CMD 'state on'
+Sun Dec 31 11:19:54 2023 MANAGEMENT: CMD 'log all on'
+Sun Dec 31 11:19:54 2023 MANAGEMENT: CMD 'echo all on'
+Sun Dec 31 11:19:54 2023 MANAGEMENT: CMD 'bytecount 5'
+Sun Dec 31 11:19:54 2023 MANAGEMENT: CMD 'hold off'
+Sun Dec 31 11:19:54 2023 MANAGEMENT: CMD 'hold release'
+Sun Dec 31 11:19:54 2023 Outgoing Control Channel Encryption: Cipher 'AES-256-CTR' initialized with 256 bit key
+Sun Dec 31 11:19:54 2023 Outgoing Control Channel Encryption: Using 256 bit message hash 'SHA256' for HMAC authentication
+Sun Dec 31 11:19:54 2023 Incoming Control Channel Encryption: Cipher 'AES-256-CTR' initialized with 256 bit key
+Sun Dec 31 11:19:54 2023 Incoming Control Channel Encryption: Using 256 bit message hash 'SHA256' for HMAC authentication
+Sun Dec 31 11:19:54 2023 TCP/UDP: Preserving recently used remote address: [AF_INET]172.27.136.250:4194
+Sun Dec 31 11:19:54 2023 Socket Buffers: R=[65536->65536] S=[65536->65536]
+Sun Dec 31 11:19:54 2023 Attempting to establish TCP connection with [AF_INET]172.27.136.250:4194 [nonblock]
+Sun Dec 31 11:19:54 2023 MANAGEMENT: >STATE:1703992794,TCP_CONNECT,,,,,,
+Sun Dec 31 11:20:16 2023 SIGTERM[hard,init_instance] received, process exiting
+Sun Dec 31 11:20:16 2023 MANAGEMENT: >STATE:1703992816,EXITING,init_instance,,,,,

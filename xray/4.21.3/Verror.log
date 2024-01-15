@@ -1,0 +1,186 @@
+2021/10/11 22:30:25 [Debug] v2ray.com/core/app/log: Logger started
+2021/10/11 22:30:25 [Warning] v2ray.com/core: V2Ray 4.21.3 started
+2021/10/11 22:30:38 [Info] [814225323] v2ray.com/core/proxy/socks: TCP Connect request to tcp:142.251.12.99:80
+2021/10/11 22:30:38 [Info] [814225323] v2ray.com/core/app/dispatcher: sniffed domain: www.google.com
+2021/10/11 22:30:38 [Info] [814225323] v2ray.com/core/app/dispatcher: taking detour [ws_tls_v2ray] for [tcp:www.google.com:80]
+2021/10/11 22:30:38 [Info] [814225323] v2ray.com/core/common/mux: dispatching request to tcp:www.google.com:80
+2021/10/11 22:30:38 [Info] v2ray.com/core/transport/internet/websocket: creating connection to tcp:127.0.0.1:18081
+2021/10/11 22:30:38 [Debug] [1501497587] v2ray.com/core/proxy/dokodemo: processing connection from: 127.0.0.1:55033
+2021/10/11 22:30:38 [Info] [1501497587] v2ray.com/core/app/dispatcher: taking detour [http_proxy_with_usrpwd] for [tcp:jaskon1392.up.railway.app:443]
+2021/10/11 22:30:38 [Info] [1501497587] v2ray.com/core/transport/internet/tcp: dialing TCP to tcp:127.0.0.1:8980
+2021/10/11 22:30:42 [Warning] [1501497587] v2ray.com/core/app/proxyman/outbound: failed to process outbound traffic > v2ray.com/core/proxy/socks: failed to establish connection to server > read tcp 127.0.0.1:55034->127.0.0.1:8980: i/o timeout
+2021/10/11 22:30:42 [Info] [1501497587] v2ray.com/core/app/proxyman/inbound: connection ends > v2ray.com/core/proxy/dokodemo: connection ends > v2ray.com/core/proxy/dokodemo: failed to transport response > io: read/write on closed pipe
+2021/10/11 22:30:42 [Info] v2ray.com/core/transport/internet/websocket: creating connection to tcp:127.0.0.1:18081
+2021/10/11 22:30:42 [Debug] [2184779806] v2ray.com/core/proxy/dokodemo: processing connection from: 127.0.0.1:55036
+2021/10/11 22:30:42 [Info] [2184779806] v2ray.com/core/app/dispatcher: taking detour [http_proxy_with_usrpwd] for [tcp:jaskon1392.up.railway.app:443]
+2021/10/11 22:30:42 [Info] [2184779806] v2ray.com/core/transport/internet/tcp: dialing TCP to tcp:127.0.0.1:8980
+2021/10/11 22:30:46 [Warning] [2184779806] v2ray.com/core/app/proxyman/outbound: failed to process outbound traffic > v2ray.com/core/proxy/socks: failed to establish connection to server > v2ray.com/core/proxy/socks: server rejects request: 4
+2021/10/11 22:30:46 [Info] [2184779806] v2ray.com/core/app/proxyman/inbound: connection ends > v2ray.com/core/proxy/dokodemo: connection ends > v2ray.com/core/proxy/dokodemo: failed to transport response > io: read/write on closed pipe
+2021/10/11 22:30:46 [Info] v2ray.com/core/transport/internet/websocket: creating connection to tcp:127.0.0.1:18081
+2021/10/11 22:30:46 [Debug] [1579822331] v2ray.com/core/proxy/dokodemo: processing connection from: 127.0.0.1:55039
+2021/10/11 22:30:46 [Info] [1579822331] v2ray.com/core/app/dispatcher: taking detour [http_proxy_with_usrpwd] for [tcp:jaskon1392.up.railway.app:443]
+2021/10/11 22:30:46 [Info] [1579822331] v2ray.com/core/transport/internet/tcp: dialing TCP to tcp:127.0.0.1:8980
+2021/10/11 22:30:49 [Warning] [1579822331] v2ray.com/core/app/proxyman/outbound: failed to process outbound traffic > v2ray.com/core/proxy/socks: failed to establish connection to server > v2ray.com/core/proxy/socks: server rejects request: 4
+2021/10/11 22:30:49 [Info] [1579822331] v2ray.com/core/app/proxyman/inbound: connection ends > v2ray.com/core/proxy/dokodemo: connection ends > v2ray.com/core/proxy/dokodemo: failed to transport response > io: read/write on closed pipe
+2021/10/11 22:30:50 [Info] v2ray.com/core/transport/internet/websocket: creating connection to tcp:127.0.0.1:18081
+2021/10/11 22:30:50 [Debug] [2709054149] v2ray.com/core/proxy/dokodemo: processing connection from: 127.0.0.1:55042
+2021/10/11 22:30:50 [Info] [2709054149] v2ray.com/core/app/dispatcher: taking detour [http_proxy_with_usrpwd] for [tcp:jaskon1392.up.railway.app:443]
+2021/10/11 22:30:50 [Info] [2709054149] v2ray.com/core/transport/internet/tcp: dialing TCP to tcp:127.0.0.1:8980
+2021/10/11 22:30:53 [Warning] [2709054149] v2ray.com/core/app/proxyman/outbound: failed to process outbound traffic > v2ray.com/core/proxy/socks: failed to establish connection to server > v2ray.com/core/proxy/socks: server rejects request: 4
+2021/10/11 22:30:53 [Info] [2709054149] v2ray.com/core/app/proxyman/inbound: connection ends > v2ray.com/core/proxy/dokodemo: connection ends > v2ray.com/core/proxy/dokodemo: failed to transport response > io: read/write on closed pipe
+2021/10/11 22:30:53 [Info] v2ray.com/core/transport/internet/websocket: creating connection to tcp:127.0.0.1:18081
+2021/10/11 22:30:53 [Debug] [1572879711] v2ray.com/core/proxy/dokodemo: processing connection from: 127.0.0.1:55045
+2021/10/11 22:30:53 [Info] [1572879711] v2ray.com/core/app/dispatcher: taking detour [http_proxy_with_usrpwd] for [tcp:jaskon1392.up.railway.app:443]
+2021/10/11 22:30:53 [Info] [1572879711] v2ray.com/core/transport/internet/tcp: dialing TCP to tcp:127.0.0.1:8980
+2021/10/11 22:30:57 [Warning] [1572879711] v2ray.com/core/app/proxyman/outbound: failed to process outbound traffic > v2ray.com/core/proxy/socks: failed to establish connection to server > v2ray.com/core/proxy/socks: server rejects request: 4
+2021/10/11 22:30:57 [Info] [1572879711] v2ray.com/core/app/proxyman/inbound: connection ends > v2ray.com/core/proxy/dokodemo: connection ends > v2ray.com/core/proxy/dokodemo: failed to transport response > io: read/write on closed pipe
+2021/10/11 22:30:57 [Warning] failed to handler mux client connection > v2ray.com/core/proxy/vmess/outbound: failed to find an available destination > v2ray.com/core/common/retry: [v2ray.com/core/transport/internet/websocket: failed to dial WebSocket > v2ray.com/core/transport/internet/websocket: failed to dial to (wss://127.0.0.1:18081/static):  > EOF] > v2ray.com/core/common/retry: all retry attempts failed
+2021/10/11 22:30:57 [Info] v2ray.com/core/common/mux: failed to read metadata > io: read/write on closed pipe
+2021/10/11 22:30:58 [Info] [814225323] v2ray.com/core/app/proxyman/inbound: connection ends > v2ray.com/core/proxy/socks: connection ends > context canceled
+2021/10/11 22:30:58 [Info] [814225323] v2ray.com/core/common/mux: failed to fetch all input > io: read/write on closed pipe
+2021/10/11 22:31:16 [Info] [3612019053] v2ray.com/core/proxy/socks: TCP Connect request to tcp:142.251.12.99:80
+2021/10/11 22:31:16 [Info] [3612019053] v2ray.com/core/app/dispatcher: sniffed domain: www.google.com
+2021/10/11 22:31:16 [Info] [3612019053] v2ray.com/core/app/dispatcher: taking detour [ws_tls_v2ray] for [tcp:www.google.com:80]
+2021/10/11 22:31:16 [Info] [3612019053] v2ray.com/core/common/mux: dispatching request to tcp:www.google.com:80
+2021/10/11 22:31:16 [Info] v2ray.com/core/transport/internet/websocket: creating connection to tcp:127.0.0.1:18081
+2021/10/11 22:31:16 [Debug] [3186206512] v2ray.com/core/proxy/dokodemo: processing connection from: 127.0.0.1:55065
+2021/10/11 22:31:16 [Info] [3186206512] v2ray.com/core/app/dispatcher: taking detour [http_proxy_with_usrpwd] for [tcp:jaskon1392.up.railway.app:443]
+2021/10/11 22:31:16 [Info] [3186206512] v2ray.com/core/transport/internet/tcp: dialing TCP to tcp:127.0.0.1:8980
+2021/10/11 22:31:19 [Warning] [3186206512] v2ray.com/core/app/proxyman/outbound: failed to process outbound traffic > v2ray.com/core/proxy/socks: failed to establish connection to server > v2ray.com/core/proxy/socks: server rejects request: 4
+2021/10/11 22:31:19 [Info] [3186206512] v2ray.com/core/app/proxyman/inbound: connection ends > v2ray.com/core/proxy/dokodemo: connection ends > v2ray.com/core/proxy/dokodemo: failed to transport response > io: read/write on closed pipe
+2021/10/11 22:31:19 [Info] v2ray.com/core/transport/internet/websocket: creating connection to tcp:127.0.0.1:18081
+2021/10/11 22:31:19 [Debug] [2885037731] v2ray.com/core/proxy/dokodemo: processing connection from: 127.0.0.1:55068
+2021/10/11 22:31:19 [Info] [2885037731] v2ray.com/core/app/dispatcher: taking detour [http_proxy_with_usrpwd] for [tcp:jaskon1392.up.railway.app:443]
+2021/10/11 22:31:19 [Info] [2885037731] v2ray.com/core/transport/internet/tcp: dialing TCP to tcp:127.0.0.1:8980
+2021/10/11 22:31:23 [Warning] [2885037731] v2ray.com/core/app/proxyman/outbound: failed to process outbound traffic > v2ray.com/core/proxy/socks: failed to establish connection to server > v2ray.com/core/proxy/socks: server rejects request: 4
+2021/10/11 22:31:23 [Info] [2885037731] v2ray.com/core/app/proxyman/inbound: connection ends > v2ray.com/core/proxy/dokodemo: connection ends > v2ray.com/core/proxy/dokodemo: failed to transport response > io: read/write on closed pipe
+2021/10/11 22:31:23 [Info] v2ray.com/core/transport/internet/websocket: creating connection to tcp:127.0.0.1:18081
+2021/10/11 22:31:23 [Debug] [399272138] v2ray.com/core/proxy/dokodemo: processing connection from: 127.0.0.1:55071
+2021/10/11 22:31:23 [Info] [399272138] v2ray.com/core/app/dispatcher: taking detour [http_proxy_with_usrpwd] for [tcp:jaskon1392.up.railway.app:443]
+2021/10/11 22:31:23 [Info] [399272138] v2ray.com/core/transport/internet/tcp: dialing TCP to tcp:127.0.0.1:8980
+2021/10/11 22:31:27 [Warning] [399272138] v2ray.com/core/app/proxyman/outbound: failed to process outbound traffic > v2ray.com/core/proxy/socks: failed to establish connection to server > v2ray.com/core/proxy/socks: server rejects request: 4
+2021/10/11 22:31:27 [Info] [399272138] v2ray.com/core/app/proxyman/inbound: connection ends > v2ray.com/core/proxy/dokodemo: connection ends > v2ray.com/core/proxy/dokodemo: failed to transport response > io: read/write on closed pipe
+2021/10/11 22:31:27 [Info] v2ray.com/core/transport/internet/websocket: creating connection to tcp:127.0.0.1:18081
+2021/10/11 22:31:27 [Debug] [3531390887] v2ray.com/core/proxy/dokodemo: processing connection from: 127.0.0.1:55086
+2021/10/11 22:31:27 [Info] [3531390887] v2ray.com/core/app/dispatcher: taking detour [http_proxy_with_usrpwd] for [tcp:jaskon1392.up.railway.app:443]
+2021/10/11 22:31:27 [Info] [3531390887] v2ray.com/core/transport/internet/tcp: dialing TCP to tcp:127.0.0.1:8980
+2021/10/11 22:31:31 [Warning] [3531390887] v2ray.com/core/app/proxyman/outbound: failed to process outbound traffic > v2ray.com/core/proxy/socks: failed to establish connection to server > read tcp 127.0.0.1:55087->127.0.0.1:8980: i/o timeout
+2021/10/11 22:31:31 [Info] [3531390887] v2ray.com/core/app/proxyman/inbound: connection ends > v2ray.com/core/proxy/dokodemo: connection ends > v2ray.com/core/proxy/dokodemo: failed to transport response > io: read/write on closed pipe
+2021/10/11 22:31:32 [Info] v2ray.com/core/transport/internet/websocket: creating connection to tcp:127.0.0.1:18081
+2021/10/11 22:31:32 [Debug] [3153506019] v2ray.com/core/proxy/dokodemo: processing connection from: 127.0.0.1:55089
+2021/10/11 22:31:32 [Info] [3153506019] v2ray.com/core/app/dispatcher: taking detour [http_proxy_with_usrpwd] for [tcp:jaskon1392.up.railway.app:443]
+2021/10/11 22:31:32 [Info] [3153506019] v2ray.com/core/transport/internet/tcp: dialing TCP to tcp:127.0.0.1:8980
+2021/10/11 22:31:35 [Warning] [3153506019] v2ray.com/core/app/proxyman/outbound: failed to process outbound traffic > v2ray.com/core/proxy/socks: failed to establish connection to server > v2ray.com/core/proxy/socks: server rejects request: 4
+2021/10/11 22:31:35 [Info] [3153506019] v2ray.com/core/app/proxyman/inbound: connection ends > v2ray.com/core/proxy/dokodemo: connection ends > v2ray.com/core/proxy/dokodemo: failed to transport response > io: read/write on closed pipe
+2021/10/11 22:31:36 [Warning] failed to handler mux client connection > v2ray.com/core/proxy/vmess/outbound: failed to find an available destination > v2ray.com/core/common/retry: [v2ray.com/core/transport/internet/websocket: failed to dial WebSocket > v2ray.com/core/transport/internet/websocket: failed to dial to (wss://127.0.0.1:18081/static):  > EOF] > v2ray.com/core/common/retry: all retry attempts failed
+2021/10/11 22:31:36 [Info] v2ray.com/core/common/mux: failed to read metadata > io: read/write on closed pipe
+2021/10/11 22:31:37 [Info] [3612019053] v2ray.com/core/app/proxyman/inbound: connection ends > v2ray.com/core/proxy/socks: connection ends > context canceled
+2021/10/11 22:31:37 [Info] [3612019053] v2ray.com/core/common/mux: failed to fetch all input > io: read/write on closed pipe
+2021/10/11 22:32:47 [Info] [740390617] v2ray.com/core/proxy/socks: TCP Connect request to tcp:142.251.12.99:80
+2021/10/11 22:32:47 [Info] [740390617] v2ray.com/core/app/dispatcher: sniffed domain: www.google.com
+2021/10/11 22:32:47 [Info] [740390617] v2ray.com/core/app/dispatcher: taking detour [ws_tls_v2ray] for [tcp:www.google.com:80]
+2021/10/11 22:32:47 [Info] [740390617] v2ray.com/core/common/mux: dispatching request to tcp:www.google.com:80
+2021/10/11 22:32:47 [Info] v2ray.com/core/transport/internet/websocket: creating connection to tcp:127.0.0.1:18081
+2021/10/11 22:32:47 [Debug] [1552530740] v2ray.com/core/proxy/dokodemo: processing connection from: 127.0.0.1:65126
+2021/10/11 22:32:47 [Info] [1552530740] v2ray.com/core/app/dispatcher: taking detour [http_proxy_with_usrpwd] for [tcp:jaskon1392.up.railway.app:443]
+2021/10/11 22:32:47 [Info] [1552530740] v2ray.com/core/transport/internet/tcp: dialing TCP to tcp:127.0.0.1:8980
+2021/10/11 22:32:51 [Warning] [1552530740] v2ray.com/core/app/proxyman/outbound: failed to process outbound traffic > v2ray.com/core/proxy/socks: failed to establish connection to server > read tcp 127.0.0.1:65127->127.0.0.1:8980: i/o timeout
+2021/10/11 22:32:51 [Info] [1552530740] v2ray.com/core/app/proxyman/inbound: connection ends > v2ray.com/core/proxy/dokodemo: connection ends > v2ray.com/core/proxy/dokodemo: failed to transport response > io: read/write on closed pipe
+2021/10/11 22:32:51 [Info] v2ray.com/core/transport/internet/websocket: creating connection to tcp:127.0.0.1:18081
+2021/10/11 22:32:51 [Debug] [3666793674] v2ray.com/core/proxy/dokodemo: processing connection from: 127.0.0.1:65129
+2021/10/11 22:32:51 [Info] [3666793674] v2ray.com/core/app/dispatcher: taking detour [http_proxy_with_usrpwd] for [tcp:jaskon1392.up.railway.app:443]
+2021/10/11 22:32:51 [Info] [3666793674] v2ray.com/core/transport/internet/tcp: dialing TCP to tcp:127.0.0.1:8980
+2021/10/11 22:32:55 [Warning] [3666793674] v2ray.com/core/app/proxyman/outbound: failed to process outbound traffic > v2ray.com/core/proxy/socks: failed to establish connection to server > v2ray.com/core/proxy/socks: server rejects request: 4
+2021/10/11 22:32:55 [Info] [3666793674] v2ray.com/core/app/proxyman/inbound: connection ends > v2ray.com/core/proxy/dokodemo: connection ends > v2ray.com/core/proxy/dokodemo: failed to transport response > io: read/write on closed pipe
+2021/10/11 22:32:55 [Info] v2ray.com/core/transport/internet/websocket: creating connection to tcp:127.0.0.1:18081
+2021/10/11 22:32:55 [Debug] [321467935] v2ray.com/core/proxy/dokodemo: processing connection from: 127.0.0.1:65132
+2021/10/11 22:32:55 [Info] [321467935] v2ray.com/core/app/dispatcher: taking detour [http_proxy_with_usrpwd] for [tcp:jaskon1392.up.railway.app:443]
+2021/10/11 22:32:55 [Info] [321467935] v2ray.com/core/transport/internet/tcp: dialing TCP to tcp:127.0.0.1:8980
+2021/10/11 22:32:59 [Warning] [321467935] v2ray.com/core/app/proxyman/outbound: failed to process outbound traffic > v2ray.com/core/proxy/socks: failed to establish connection to server > v2ray.com/core/proxy/socks: server rejects request: 4
+2021/10/11 22:32:59 [Info] [321467935] v2ray.com/core/app/proxyman/inbound: connection ends > v2ray.com/core/proxy/dokodemo: connection ends > v2ray.com/core/proxy/dokodemo: failed to transport response > io: read/write on closed pipe
+2021/10/11 22:32:59 [Info] v2ray.com/core/transport/internet/websocket: creating connection to tcp:127.0.0.1:18081
+2021/10/11 22:32:59 [Debug] [930270368] v2ray.com/core/proxy/dokodemo: processing connection from: 127.0.0.1:65140
+2021/10/11 22:32:59 [Info] [930270368] v2ray.com/core/app/dispatcher: taking detour [http_proxy_with_usrpwd] for [tcp:jaskon1392.up.railway.app:443]
+2021/10/11 22:32:59 [Info] [930270368] v2ray.com/core/transport/internet/tcp: dialing TCP to tcp:127.0.0.1:8980
+2021/10/11 22:33:02 [Warning] [930270368] v2ray.com/core/app/proxyman/outbound: failed to process outbound traffic > v2ray.com/core/proxy/socks: failed to establish connection to server > v2ray.com/core/proxy/socks: server rejects request: 4
+2021/10/11 22:33:02 [Info] [930270368] v2ray.com/core/app/proxyman/inbound: connection ends > v2ray.com/core/proxy/dokodemo: connection ends > v2ray.com/core/proxy/dokodemo: failed to transport response > io: read/write on closed pipe
+2021/10/11 22:33:03 [Info] v2ray.com/core/transport/internet/websocket: creating connection to tcp:127.0.0.1:18081
+2021/10/11 22:33:03 [Debug] [3799135247] v2ray.com/core/proxy/dokodemo: processing connection from: 127.0.0.1:65143
+2021/10/11 22:33:03 [Info] [3799135247] v2ray.com/core/app/dispatcher: taking detour [http_proxy_with_usrpwd] for [tcp:jaskon1392.up.railway.app:443]
+2021/10/11 22:33:03 [Info] [3799135247] v2ray.com/core/transport/internet/tcp: dialing TCP to tcp:127.0.0.1:8980
+2021/10/11 22:33:06 [Warning] [3799135247] v2ray.com/core/app/proxyman/outbound: failed to process outbound traffic > v2ray.com/core/proxy/socks: failed to establish connection to server > v2ray.com/core/proxy/socks: server rejects request: 4
+2021/10/11 22:33:06 [Info] [3799135247] v2ray.com/core/app/proxyman/inbound: connection ends > v2ray.com/core/proxy/dokodemo: connection ends > v2ray.com/core/proxy/dokodemo: failed to transport response > io: read/write on closed pipe
+2021/10/11 22:33:07 [Warning] failed to handler mux client connection > v2ray.com/core/proxy/vmess/outbound: failed to find an available destination > v2ray.com/core/common/retry: [v2ray.com/core/transport/internet/websocket: failed to dial WebSocket > v2ray.com/core/transport/internet/websocket: failed to dial to (wss://127.0.0.1:18081/static):  > EOF] > v2ray.com/core/common/retry: all retry attempts failed
+2021/10/11 22:33:07 [Info] v2ray.com/core/common/mux: failed to read metadata > io: read/write on closed pipe
+2021/10/11 22:33:08 [Info] [740390617] v2ray.com/core/app/proxyman/inbound: connection ends > v2ray.com/core/proxy/socks: connection ends > context canceled
+2021/10/11 22:33:08 [Info] [740390617] v2ray.com/core/common/mux: failed to fetch all input > io: read/write on closed pipe
+2021/10/11 22:33:53 [Debug] v2ray.com/core/app/log: Logger started
+2021/10/11 22:33:53 [Warning] v2ray.com/core: V2Ray 4.21.3 started
+2021/10/11 22:33:55 [Info] [3904715723] v2ray.com/core/proxy/socks: TCP Connect request to tcp:142.251.12.99:80
+2021/10/11 22:33:55 [Info] [3904715723] v2ray.com/core/app/dispatcher: sniffed domain: www.google.com
+2021/10/11 22:33:55 [Info] [3904715723] v2ray.com/core/app/dispatcher: taking detour [ws_tls_v2ray] for [tcp:www.google.com:80]
+2021/10/11 22:33:55 [Info] [3904715723] v2ray.com/core/common/mux: dispatching request to tcp:www.google.com:80
+2021/10/11 22:33:55 [Info] v2ray.com/core/transport/internet/websocket: creating connection to tcp:127.0.0.1:18081
+2021/10/11 22:33:55 [Debug] [3605941812] v2ray.com/core/proxy/dokodemo: processing connection from: 127.0.0.1:65167
+2021/10/11 22:33:55 [Info] [3605941812] v2ray.com/core/app/dispatcher: taking detour [http_proxy_with_usrpwd] for [tcp:jaskon1392.up.railway.app:443]
+2021/10/11 22:33:55 [Info] [3605941812] v2ray.com/core/transport/internet/tcp: dialing TCP to tcp:127.0.0.1:8980
+2021/10/11 22:33:59 [Info] [3605941812] v2ray.com/core/app/proxyman/outbound: failed to process outbound traffic > v2ray.com/core/proxy/http: connection ends > read tcp 127.0.0.1:65168->127.0.0.1:8980: wsarecv: An existing connection was forcibly closed by the remote host.
+2021/10/11 22:33:59 [Info] [3605941812] v2ray.com/core/app/proxyman/inbound: connection ends > v2ray.com/core/proxy/dokodemo: connection ends > v2ray.com/core/proxy/dokodemo: failed to transport response > io: read/write on closed pipe
+2021/10/11 22:33:59 [Info] v2ray.com/core/transport/internet/websocket: creating connection to tcp:127.0.0.1:18081
+2021/10/11 22:33:59 [Debug] [3431076673] v2ray.com/core/proxy/dokodemo: processing connection from: 127.0.0.1:65170
+2021/10/11 22:33:59 [Info] [3431076673] v2ray.com/core/app/dispatcher: taking detour [http_proxy_with_usrpwd] for [tcp:jaskon1392.up.railway.app:443]
+2021/10/11 22:33:59 [Info] [3431076673] v2ray.com/core/transport/internet/tcp: dialing TCP to tcp:127.0.0.1:8980
+2021/10/11 22:34:02 [Info] [3431076673] v2ray.com/core/app/proxyman/outbound: failed to process outbound traffic > v2ray.com/core/proxy/http: connection ends > read tcp 127.0.0.1:65171->127.0.0.1:8980: wsarecv: An existing connection was forcibly closed by the remote host.
+2021/10/11 22:34:02 [Info] [3431076673] v2ray.com/core/app/proxyman/inbound: connection ends > v2ray.com/core/proxy/dokodemo: connection ends > v2ray.com/core/proxy/dokodemo: failed to transport response > io: read/write on closed pipe
+2021/10/11 22:34:02 [Info] v2ray.com/core/transport/internet/websocket: creating connection to tcp:127.0.0.1:18081
+2021/10/11 22:34:02 [Debug] [332320168] v2ray.com/core/proxy/dokodemo: processing connection from: 127.0.0.1:65173
+2021/10/11 22:34:02 [Info] [332320168] v2ray.com/core/app/dispatcher: taking detour [http_proxy_with_usrpwd] for [tcp:jaskon1392.up.railway.app:443]
+2021/10/11 22:34:02 [Info] [332320168] v2ray.com/core/transport/internet/tcp: dialing TCP to tcp:127.0.0.1:8980
+2021/10/11 22:34:06 [Info] v2ray.com/core/transport/internet/websocket: creating connection to tcp:127.0.0.1:18081
+2021/10/11 22:34:06 [Debug] [2555770615] v2ray.com/core/proxy/dokodemo: processing connection from: 127.0.0.1:65176
+2021/10/11 22:34:06 [Info] [2555770615] v2ray.com/core/app/dispatcher: taking detour [http_proxy_with_usrpwd] for [tcp:jaskon1392.up.railway.app:443]
+2021/10/11 22:34:06 [Info] [2555770615] v2ray.com/core/transport/internet/tcp: dialing TCP to tcp:127.0.0.1:8980
+2021/10/11 22:34:09 [Info] [2555770615] v2ray.com/core/app/proxyman/outbound: failed to process outbound traffic > v2ray.com/core/proxy/http: connection ends > context canceled
+2021/10/11 22:34:10 [Info] v2ray.com/core/transport/internet/websocket: creating connection to tcp:127.0.0.1:18081
+2021/10/11 22:34:10 [Debug] [3779267225] v2ray.com/core/proxy/dokodemo: processing connection from: 127.0.0.1:65185
+2021/10/11 22:34:10 [Info] [3779267225] v2ray.com/core/app/dispatcher: taking detour [http_proxy_with_usrpwd] for [tcp:jaskon1392.up.railway.app:443]
+2021/10/11 22:34:10 [Info] [3779267225] v2ray.com/core/transport/internet/tcp: dialing TCP to tcp:127.0.0.1:8980
+2021/10/11 22:34:13 [Info] [3779267225] v2ray.com/core/app/proxyman/outbound: failed to process outbound traffic > v2ray.com/core/proxy/http: connection ends > context canceled
+2021/10/11 22:34:14 [Warning] failed to handler mux client connection > v2ray.com/core/proxy/vmess/outbound: failed to find an available destination > v2ray.com/core/common/retry: [v2ray.com/core/transport/internet/websocket: failed to dial WebSocket > v2ray.com/core/transport/internet/websocket: failed to dial to (wss://127.0.0.1:18081/static):  > tls: first record does not look like a TLS handshake] > v2ray.com/core/common/retry: all retry attempts failed
+2021/10/11 22:34:14 [Info] v2ray.com/core/common/mux: failed to read metadata > io: read/write on closed pipe
+2021/10/11 22:34:15 [Info] [3904715723] v2ray.com/core/app/proxyman/inbound: connection ends > v2ray.com/core/proxy/socks: connection ends > context canceled
+2021/10/11 22:34:15 [Info] [3904715723] v2ray.com/core/common/mux: failed to fetch all input > io: read/write on closed pipe
+2021/10/11 22:35:58 [Debug] v2ray.com/core/app/log: Logger started
+2021/10/11 22:35:58 [Warning] v2ray.com/core: V2Ray 4.21.3 started
+2021/10/11 22:36:00 [Info] [3162847236] v2ray.com/core/proxy/socks: TCP Connect request to tcp:142.251.12.99:80
+2021/10/11 22:36:00 [Info] [3162847236] v2ray.com/core/app/dispatcher: sniffed domain: www.google.com
+2021/10/11 22:36:00 [Info] [3162847236] v2ray.com/core/app/dispatcher: taking detour [ws_tls_v2ray] for [tcp:www.google.com:80]
+2021/10/11 22:36:00 [Info] [3162847236] v2ray.com/core/common/mux: dispatching request to tcp:www.google.com:80
+2021/10/11 22:36:00 [Info] v2ray.com/core/transport/internet/websocket: creating connection to tcp:127.0.0.1:18081
+2021/10/11 22:36:00 [Debug] [4259383789] v2ray.com/core/proxy/dokodemo: processing connection from: 127.0.0.1:53648
+2021/10/11 22:36:00 [Info] [4259383789] v2ray.com/core/app/dispatcher: taking detour [http_proxy_with_usrpwd] for [tcp:jaskon1392.up.railway.app:443]
+2021/10/11 22:36:00 [Info] [4259383789] v2ray.com/core/transport/internet/tcp: dialing TCP to tcp:127.0.0.1:8980
+2021/10/11 22:36:04 [Info] v2ray.com/core/transport/internet/websocket: creating connection to tcp:127.0.0.1:18081
+2021/10/11 22:36:04 [Debug] [3141001117] v2ray.com/core/proxy/dokodemo: processing connection from: 127.0.0.1:53651
+2021/10/11 22:36:04 [Info] [3141001117] v2ray.com/core/app/dispatcher: taking detour [http_proxy_with_usrpwd] for [tcp:jaskon1392.up.railway.app:443]
+2021/10/11 22:36:04 [Info] [3141001117] v2ray.com/core/transport/internet/tcp: dialing TCP to tcp:127.0.0.1:8980
+2021/10/11 22:36:07 [Info] v2ray.com/core/transport/internet/websocket: creating connection to tcp:127.0.0.1:18081
+2021/10/11 22:36:07 [Debug] [3562226772] v2ray.com/core/proxy/dokodemo: processing connection from: 127.0.0.1:54052
+2021/10/11 22:36:07 [Info] [3562226772] v2ray.com/core/app/dispatcher: taking detour [http_proxy_with_usrpwd] for [tcp:jaskon1392.up.railway.app:443]
+2021/10/11 22:36:07 [Info] [3562226772] v2ray.com/core/transport/internet/tcp: dialing TCP to tcp:127.0.0.1:8980
+2021/10/11 22:36:10 [Info] [3562226772] v2ray.com/core/app/proxyman/outbound: failed to process outbound traffic > v2ray.com/core/proxy/http: connection ends > context canceled
+2021/10/11 22:36:11 [Info] v2ray.com/core/transport/internet/websocket: creating connection to tcp:127.0.0.1:18081
+2021/10/11 22:36:11 [Debug] [1817969343] v2ray.com/core/proxy/dokodemo: processing connection from: 127.0.0.1:54055
+2021/10/11 22:36:11 [Info] [1817969343] v2ray.com/core/app/dispatcher: taking detour [http_proxy_with_usrpwd] for [tcp:jaskon1392.up.railway.app:443]
+2021/10/11 22:36:11 [Info] [1817969343] v2ray.com/core/transport/internet/tcp: dialing TCP to tcp:127.0.0.1:8980
+2021/10/11 22:36:14 [Info] [1817969343] v2ray.com/core/app/proxyman/inbound: connection ends > v2ray.com/core/proxy/dokodemo: connection ends > v2ray.com/core/proxy/dokodemo: failed to transport request > read tcp 127.0.0.1:18081->127.0.0.1:54055: wsarecv: An existing connection was forcibly closed by the remote host.
+2021/10/11 22:36:14 [Info] [1817969343] v2ray.com/core/app/proxyman/outbound: failed to process outbound traffic > v2ray.com/core/proxy/http: connection ends > io: read/write on closed pipe
+2021/10/11 22:36:14 [Info] v2ray.com/core/transport/internet/websocket: creating connection to tcp:127.0.0.1:18081
+2021/10/11 22:36:14 [Debug] [1813208823] v2ray.com/core/proxy/dokodemo: processing connection from: 127.0.0.1:54058
+2021/10/11 22:36:14 [Info] [1813208823] v2ray.com/core/app/dispatcher: taking detour [http_proxy_with_usrpwd] for [tcp:jaskon1392.up.railway.app:443]
+2021/10/11 22:36:14 [Info] [1813208823] v2ray.com/core/transport/internet/tcp: dialing TCP to tcp:127.0.0.1:8980
+2021/10/11 22:36:18 [Info] [1813208823] v2ray.com/core/app/proxyman/outbound: failed to process outbound traffic > v2ray.com/core/proxy/http: connection ends > context canceled
+2021/10/11 22:36:18 [Warning] failed to handler mux client connection > v2ray.com/core/proxy/vmess/outbound: failed to find an available destination > v2ray.com/core/common/retry: [v2ray.com/core/transport/internet/websocket: failed to dial WebSocket > v2ray.com/core/transport/internet/websocket: failed to dial to (wss://127.0.0.1:18081/static):  > tls: first record does not look like a TLS handshake] > v2ray.com/core/common/retry: all retry attempts failed
+2021/10/11 22:36:18 [Info] v2ray.com/core/common/mux: failed to read metadata > io: read/write on closed pipe
+2021/10/11 22:36:19 [Info] [3162847236] v2ray.com/core/app/proxyman/inbound: connection ends > v2ray.com/core/proxy/socks: connection ends > context canceled
+2021/10/11 22:36:19 [Info] [3162847236] v2ray.com/core/common/mux: failed to fetch all input > io: read/write on closed pipe

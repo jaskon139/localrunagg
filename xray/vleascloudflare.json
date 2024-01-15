@@ -1,0 +1,232 @@
+{
+    "dns": {
+      "disableFallbackIfMatch": true,
+      "hosts": {},
+      "queryStrategy": "UseIPv4",
+      "servers": [
+        {
+          "address": "tls://dns.google",
+          "concurrency": true
+        },
+        {
+          "address": "localhost",
+          "concurrency": true,
+          "domains": [
+            "full:dns.google"
+          ],
+          "skipFallback": true
+        }
+      ]
+    },
+    "inbounds": [
+      {
+        "listen": "0.0.0.0",
+        "port": 10808,
+        "protocol": "socks",
+        "settings": {
+          "auth": "noauth",
+          "udp": true
+        },
+        "sniffing": {
+          "destOverride": [
+            "http",
+            "tls"
+          ],
+          "enabled": true,
+          "routeOnly": true
+        },
+        "tag": "socks"
+      },
+      {
+        "listen": "0.0.0.0",
+        "port": 9080,
+        "protocol": "http",
+        "settings": {
+          "allowTransparent": true
+        },
+        "sniffing": {
+          "destOverride": [
+            "http",
+            "tls"            
+          ],
+          "enabled": true,
+          "routeOnly": true
+        },
+        "tag": "http"
+      },
+      {
+         "listen": "0.0.0.0",
+         "port": 15959,
+         "protocol": "dokodemo-door",
+         "settings": {
+             "address": "vm2jaskon139.dynv6.net",
+             "network": "tcp,udp",
+             "port": 4949
+         },
+         "tag": "dn77sddd-in"
+      },
+      {
+        "listen": "0.0.0.0",
+        "port": 9992,
+        "protocol": "http",
+        "settings": {
+          "allowTransparent": true
+        },
+        "sniffing": {
+          "destOverride": [
+            "http",
+            "tls"            
+          ],
+          "enabled": true,
+          "routeOnly": true
+        },
+        "tag": "http2"
+      },
+      {
+        "listen": "0.0.0.0",
+        "port": 6450,
+        "protocol": "dokodemo-door",
+        "settings": {
+          "address": "1.0.0.1",
+          "network": "tcp,udp",
+          "port": 53
+        },
+        "tag": "dns-in"
+      },
+      {
+        "listen": "0.0.0.0",
+        "port": 7004,
+        "protocol": "dokodemo-door",
+        "settings": {
+          "address": "vm2jaskon139.dynv6.net:",
+          "network": "tcp,udp",
+          "port": 4949
+        },
+        "tag": "dns-22in"
+      }
+    ],
+    "log": {
+      "loglevel": "error"
+    },
+    "outbounds": [
+      {
+        "domainStrategy": "UseIPv4",
+        "protocol": "vless",
+        "settings": {
+          "vnext": [
+            {
+              "address": "127.0.0.1",
+              "port": 7999,
+              "users": [
+                {
+                  "encryption": "none",
+                  "id": "d395a5c2-fc0c-4c98-a9a7-3b08331e7e31"
+                }
+              ]
+            }
+          ]
+        },
+        "streamSettings": {
+          "network": "ws",
+          "security": "tls",
+          "tlsSettings": {
+            "serverName": "cf-8cc.pages.dev"
+          },
+          "wsSettings": {
+            "headers": {
+              "Host": "cf-8cc.pages.dev"
+            },
+            "path": "/"
+          }
+        },
+        "tag": "proxy-global-6"
+      },
+      {
+        "protocol": "freedom",
+        "tag": "direct"
+      },
+      {
+        "protocol": "freedom",
+        "tag": "bypass"
+      },
+      {
+        "protocol": "blackhole",
+        "tag": "block"
+      },
+      {
+        "protocol": "dns",
+        "settings": {
+          "address": "dns.google",
+          "userLevel": 1
+        },
+        "tag": "dns-out"
+      }
+    ],
+    "ping": {
+      "disableIPv6": true,
+      "protocol": "unprivileged"
+    },
+    "policy": {
+      "levels": {
+        "1": {
+          "connIdle": 30
+        }
+      },
+      "system": {
+        "statsOutboundDownlink": true,
+        "statsOutboundUplink": true
+      }
+    },
+    "routing": {
+      "domainStrategy": "AsIs",
+      "rules": [
+        {
+          "inboundTag": [
+            "dns-in"
+          ],
+          "outboundTag": "dns-out",
+          "type": "field"
+        },
+        {
+          "outboundTag": "dns-out",
+          "protocol": [
+            "dns"
+          ],
+          "type": "field"
+        },
+        {
+          "ip": [
+            "172.66.44.208"
+          ],
+          "outboundTag": "direct",
+          "type": "field"
+        },
+        {
+          "domain": [
+            "geosite:category-ads-all"
+          ],
+          "outboundTag": "block",
+          "type": "field"
+        },
+        {
+          "domain": [
+            "domain:appcenter.ms",
+            "domain:app-measurement.com",
+            "domain:firebase.io",
+            "domain:crashlytics.com",
+            "domain:google-analytics.com"
+          ],
+          "outboundTag": "block",
+          "type": "field"
+        },
+        {
+          "ip": [
+            "255.255.255.255"
+          ],
+          "outboundTag": "block",
+          "type": "field"
+        }
+      ]
+    },
+    "stats": {}
+  }
